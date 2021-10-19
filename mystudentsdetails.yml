@@ -1,0 +1,11 @@
+---
+- my students:
+  - name: venu
+    ph no: 55451545545
+    address: Kadapa
+  - name: Dora
+    ph no: 1678964
+    address: bangulure
+  - name: Dharma
+    ph no: 1579464984
+    address: hyderabad
