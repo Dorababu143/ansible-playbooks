@@ -10,8 +10,8 @@
 
 [mywebservers:vars]
 key=value
-myubuntuserer=apache22
-myredhatserver=httpdd
+myubuntuserer=apache2
+myredhatserver=httpd
 
 
 
