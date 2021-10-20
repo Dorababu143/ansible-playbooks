@@ -17,7 +17,7 @@
       name: httpd
       state: present
   - name: i want to start webserver
-    serveice:
+    service:
       name: httpd
       state: started
     when: ansible_os_family=="RedHat"
