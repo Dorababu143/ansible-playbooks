@@ -11,3 +11,12 @@
       name: httpd
       state: started
     when: ansible_os_family=="RedHat"  
+  - name: i want to install a ubuntu webserver
+    apt:
+      name: apache2
+      state: present
+  - name: i want to start webserver
+    service:
+      name: apache2
+      state: started
+    when: ansible_os_family=="Debian"
