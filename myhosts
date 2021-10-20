@@ -7,11 +7,3 @@
 
 [myredhatserver]
 172.31.28.120
-
-[mywebservers:vars]
-key=value
-myubuntuserer=apache2
-myredhatserver=httpd
-
-
-
