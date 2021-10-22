@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: myubuntuserver
   become: yes
   gather_facts: yes
   tasks:
@@ -14,10 +14,13 @@
       name: apache2
       state: started
     when: ansible_os_family=="Debian"
+
   - name: i want to install a webserver on redhat
     yum:
       name: httpd
       state: present
+    when: ansible_os_family=="RedHat"
+
   - name: i want to start webserver
     service:
       name: httpd
