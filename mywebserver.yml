@@ -1,5 +1,5 @@
 ---
-- hosts: myubuntuserver
+- hosts: mytomcatubuntuserver
   become: yes
   gather_facts: yes
   tasks:
