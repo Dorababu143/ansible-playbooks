@@ -13,5 +13,5 @@
         state: restarted
    - name: change the index file into my own data
      template:
-      sorce: sorce.j2
+      src: sorce.j2
       dest: /var/www/html/index.html
