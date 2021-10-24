@@ -3,7 +3,7 @@
   become: yes
   tasks:
   - name: i want to create file in my node side
-  file:
-    path: /home/ubuntu/dorafile.txt
-    state: touch
+    file:
+     path: /home/ubuntu/dorafile.txt
+     state: touch
 
