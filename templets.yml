@@ -10,8 +10,8 @@
    - name: i want to start web server
      service:
         name: apache2
-        state: started
-   - name: cange the index file into my own data
+        state: restarted
+   - name: change the index file into my own data
    - templete:
       sorce: sorce.j2
       dest: /var/www/html/index.html
