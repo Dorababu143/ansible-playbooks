@@ -4,7 +4,7 @@
   tasks:
   - name: i want to run linux command
     command:
-      name: hostname -r
+      name: hostname -f
       register: myvars1
   - name: i want to display command output
     debug:
