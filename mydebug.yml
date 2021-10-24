@@ -2,12 +2,12 @@
 - hosts: 172.31.1.30
   become: yes
   tasks:
-   - name: i want to run linux command
-     command:
+  - name: i want to run linux command
+    command:
       name: hostname -r
       register: myvars1
-   - name: i want to display command output
-     debug:
+  - name: i want to display command output
+    debug:
        msg: "{{myvars1}}"
  
 
