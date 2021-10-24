@@ -1,0 +1,14 @@
+---
+- hosts: 172.31.1.30
+  become: yes
+  tasks:
+   - name: i want to run linux command
+     command:
+      name: hostname -r
+      regester: myvars1
+   - name: i want to display command output
+     debug:
+       msg: "{{myvars1}}"
+ 
+
+

@@ -1,7 +1,7 @@
 [mywebservers]
 172.31.28.120
 172.31.1.30
-172.31.33.103
+
 
 [myubuntuserver]
 172.31.1.30
@@ -9,8 +9,7 @@
 [myredhatserver]
 172.31.28.120
 
-[mytomcatubuntuserver]
-172.31.33.103
+
 
 
 
