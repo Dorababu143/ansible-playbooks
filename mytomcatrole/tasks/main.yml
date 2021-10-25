@@ -1,0 +1,6 @@
+---
+# tasks file for mywebrole
+- include_tasks: installjava.yml
+- include_tasks: createusergroup.yml
+- include_tasks: installtomcat.yml
+- include_tasks: permisitions.yml
