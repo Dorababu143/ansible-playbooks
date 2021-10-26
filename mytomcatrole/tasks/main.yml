@@ -8,5 +8,5 @@
 - include_tasks: starttomcat.yml
 - include_tasks: tomcatwebmanagement.yml
 - include_tasks: tomcatrestart.yml
-- include_tasks: myjavaappdeplay.yml
+- include_tasks: myjenkinsdeplay.yml
 - include_tasks: tomcatrestart.yml
